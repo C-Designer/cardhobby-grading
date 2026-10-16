@@ -1,0 +1,1 @@
+function e(e,t){return t?e?.find(e=>e.code===t)?.name??t:``}export{e as t};

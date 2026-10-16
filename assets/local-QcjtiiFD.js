@@ -1,0 +1,1 @@
+var e={google:`구글`,naver:`네이버`,kakao:`카카오`,admin:`관리자`};export{e as t};

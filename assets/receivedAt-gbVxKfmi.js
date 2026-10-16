@@ -1,0 +1,1 @@
+function e(e){return String(e).padStart(2,`0`)}function t(t){return`${t.getFullYear()}-${e(t.getMonth()+1)}-${e(t.getDate())}`}function n(e,n=new Date){if(!e)return t(n);let r=new Date(e);return Number.isNaN(r.getTime())?t(n):t(r)}function r(e,t=null){return/^\d{4}-\d{2}-\d{2}$/.test(e)?t&&n(t)===e?t:`${e}T00:00:00+09:00`:e}export{t as n,r,n as t};
